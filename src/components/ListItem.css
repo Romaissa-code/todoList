@@ -1,0 +1,64 @@
+.itemContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+    padding:7px  5px;
+    justify-content: space-between;
+        box-shadow: 1px 1px 5px #7C76DA;
+    border-radius: 4px;
+    margin-right: 5px;
+   
+    
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+ 
+}
+.item{
+       display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.itemCheck{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #7C76DA;
+
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.itemCheck:hover{
+    cursor: pointer;
+}
+.icons svg{
+    color: #7C76DA;
+    font-size: 20px;
+   
+}
+.icons svg:hover{
+    cursor: pointer;
+
+}
+.itemWrapper{
+    position: relative;
+    overflow-wrap: break-word;
+    margin-right:2px
+}
+.taskLeft{
+    background-color: #c0d9c0;
+    padding: 4px;
+    width: fit-content;
+    box-shadow: 1px 1px 20px rgb(186, 186, 186);
+
+}
+.update{
+    font-size: 13px !important;
+    color: #78948d !important;
+    text-transform: capitalize !important;
+    font-weight: bold;
+}
